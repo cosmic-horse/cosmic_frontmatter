@@ -1,4 +1,4 @@
-import 'package:cosmic_frontmatter/frontmatter.dart';
+import 'package:cosmic_frontmatter/cosmic_frontmatter.dart';
 import 'package:example/models/mock_frontmatter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
