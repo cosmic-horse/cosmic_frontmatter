@@ -1,6 +1,6 @@
 name: cosmic_frontmatter
 description: Parse frontmatter from a YAML file
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/cosmic-horse/cosmic_frontmatter
 
 environment:

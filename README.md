@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cosmic_frontmatter: ^1.0.0
+  cosmic_frontmatter: ^1.0.1
 ```
 
 ## Usage
