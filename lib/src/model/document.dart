@@ -6,6 +6,8 @@ part 'document.g.dart';
 @JsonSerializable(
   genericArgumentFactories: true,
 )
+
+/// Representation of a Markdown document with frontmatter.
 class Document<T> {
   final T frontmatter;
   final String body;

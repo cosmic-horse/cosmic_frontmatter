@@ -2,6 +2,9 @@ import 'package:cosmic_frontmatter/src/exceptions/frontmatter_parse_exception.da
 import 'package:cosmic_frontmatter/src/model/document.dart';
 import 'package:yaml/yaml.dart';
 
+/// Parses a YAML document into a [Document] object.
+///
+/// Throws a [FrontmatterParseException] if the document is not valid YAML.
 Document<T> parseFrontmatter<T>({
   required String content,
   required T Function(Map<String, dynamic>) frontmatterBuilder,
