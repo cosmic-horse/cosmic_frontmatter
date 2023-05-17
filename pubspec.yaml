@@ -1,6 +1,6 @@
 name: cosmic_frontmatter
 description: Parse frontmatter from a YAML file. Use this along-side a markdown plugin such as flutter_markdown.
-version: 1.0.2
+version: 1.0.3
 repository: https://github.com/cosmic-horse/cosmic_frontmatter
 
 environment:
