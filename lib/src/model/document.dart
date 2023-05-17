@@ -1,4 +1,3 @@
-import 'package:flutter/widgets.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'document.g.dart';
@@ -23,7 +22,7 @@ class Document<T> {
   Map<String, dynamic> toJson(Object Function(T value) toJsonT) => _$DocumentToJson(this, toJsonT);
 
   @override
-  int get hashCode => hashValues(
+  int get hashCode => Object.hash(
         frontmatter.hashCode,
         body,
       );
