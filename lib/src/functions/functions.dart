@@ -1,1 +1,1 @@
-export 'parseFrontmatter.dart';
+export 'parse_frontmatter.dart';

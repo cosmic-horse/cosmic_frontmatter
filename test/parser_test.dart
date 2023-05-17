@@ -1,5 +1,5 @@
 import 'package:cosmic_frontmatter/src/exceptions/frontmatter_parse_exception.dart';
-import 'package:cosmic_frontmatter/src/functions/parseFrontmatter.dart';
+import 'package:cosmic_frontmatter/src/functions/parse_frontmatter.dart';
 import 'package:cosmic_frontmatter/src/model/mock_frontmatter.dart';
 import 'package:flutter_test/flutter_test.dart';
 

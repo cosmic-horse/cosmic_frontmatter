@@ -1,6 +1,7 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
-// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
+// ignore_for_file: type=lint
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
 part of 'frontmatter_parse_exception.dart';
 
@@ -11,34 +12,11 @@ part of 'frontmatter_parse_exception.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
-
-/// @nodoc
-class _$FrontmatterParseExceptionTearOff {
-  const _$FrontmatterParseExceptionTearOff();
-
-  _FrontmatterParseException call(String message) {
-    return _FrontmatterParseException(
-      message,
-    );
-  }
-
-  FrontmatterParseExceptionDelimiter delimiter(
-      [String message =
-          'Frontmatter document must start with your delimiter.']) {
-    return FrontmatterParseExceptionDelimiter(
-      message,
-    );
-  }
-}
-
-/// @nodoc
-const $FrontmatterParseException = _$FrontmatterParseExceptionTearOff();
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 /// @nodoc
 mixin _$FrontmatterParseException {
   String get message => throw _privateConstructorUsedError;
-
   @optionalTypeArgs
   TResult when<TResult extends Object?>(
     TResult Function(String message) $default, {
@@ -47,8 +25,8 @@ mixin _$FrontmatterParseException {
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>(
-    TResult Function(String message)? $default, {
-    TResult Function(String message)? delimiter,
+    TResult? Function(String message)? $default, {
+    TResult? Function(String message)? delimiter,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -67,8 +45,8 @@ mixin _$FrontmatterParseException {
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>(
-    TResult Function(_FrontmatterParseException value)? $default, {
-    TResult Function(FrontmatterParseExceptionDelimiter value)? delimiter,
+    TResult? Function(_FrontmatterParseException value)? $default, {
+    TResult? Function(FrontmatterParseExceptionDelimiter value)? delimiter,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -88,60 +66,65 @@ mixin _$FrontmatterParseException {
 abstract class $FrontmatterParseExceptionCopyWith<$Res> {
   factory $FrontmatterParseExceptionCopyWith(FrontmatterParseException value,
           $Res Function(FrontmatterParseException) then) =
-      _$FrontmatterParseExceptionCopyWithImpl<$Res>;
+      _$FrontmatterParseExceptionCopyWithImpl<$Res, FrontmatterParseException>;
+  @useResult
   $Res call({String message});
 }
 
 /// @nodoc
-class _$FrontmatterParseExceptionCopyWithImpl<$Res>
+class _$FrontmatterParseExceptionCopyWithImpl<$Res,
+        $Val extends FrontmatterParseException>
     implements $FrontmatterParseExceptionCopyWith<$Res> {
   _$FrontmatterParseExceptionCopyWithImpl(this._value, this._then);
 
-  final FrontmatterParseException _value;
   // ignore: unused_field
-  final $Res Function(FrontmatterParseException) _then;
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 
+  @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? message = freezed,
+    Object? message = null,
   }) {
     return _then(_value.copyWith(
-      message: message == freezed
+      message: null == message
           ? _value.message
           : message // ignore: cast_nullable_to_non_nullable
               as String,
-    ));
+    ) as $Val);
   }
 }
 
 /// @nodoc
-abstract class _$FrontmatterParseExceptionCopyWith<$Res>
+abstract class _$$_FrontmatterParseExceptionCopyWith<$Res>
     implements $FrontmatterParseExceptionCopyWith<$Res> {
-  factory _$FrontmatterParseExceptionCopyWith(_FrontmatterParseException value,
-          $Res Function(_FrontmatterParseException) then) =
-      __$FrontmatterParseExceptionCopyWithImpl<$Res>;
+  factory _$$_FrontmatterParseExceptionCopyWith(
+          _$_FrontmatterParseException value,
+          $Res Function(_$_FrontmatterParseException) then) =
+      __$$_FrontmatterParseExceptionCopyWithImpl<$Res>;
   @override
+  @useResult
   $Res call({String message});
 }
 
 /// @nodoc
-class __$FrontmatterParseExceptionCopyWithImpl<$Res>
-    extends _$FrontmatterParseExceptionCopyWithImpl<$Res>
-    implements _$FrontmatterParseExceptionCopyWith<$Res> {
-  __$FrontmatterParseExceptionCopyWithImpl(_FrontmatterParseException _value,
-      $Res Function(_FrontmatterParseException) _then)
-      : super(_value, (v) => _then(v as _FrontmatterParseException));
+class __$$_FrontmatterParseExceptionCopyWithImpl<$Res>
+    extends _$FrontmatterParseExceptionCopyWithImpl<$Res,
+        _$_FrontmatterParseException>
+    implements _$$_FrontmatterParseExceptionCopyWith<$Res> {
+  __$$_FrontmatterParseExceptionCopyWithImpl(
+      _$_FrontmatterParseException _value,
+      $Res Function(_$_FrontmatterParseException) _then)
+      : super(_value, _then);
 
-  @override
-  _FrontmatterParseException get _value =>
-      super._value as _FrontmatterParseException;
-
+  @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? message = freezed,
+    Object? message = null,
   }) {
-    return _then(_FrontmatterParseException(
-      message == freezed
+    return _then(_$_FrontmatterParseException(
+      null == message
           ? _value.message
           : message // ignore: cast_nullable_to_non_nullable
               as String,
@@ -166,7 +149,7 @@ class _$_FrontmatterParseException extends _FrontmatterParseException {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _FrontmatterParseException &&
+            other is _$_FrontmatterParseException &&
             (identical(other.message, message) || other.message == message));
   }
 
@@ -175,10 +158,10 @@ class _$_FrontmatterParseException extends _FrontmatterParseException {
 
   @JsonKey(ignore: true)
   @override
-  _$FrontmatterParseExceptionCopyWith<_FrontmatterParseException>
-      get copyWith =>
-          __$FrontmatterParseExceptionCopyWithImpl<_FrontmatterParseException>(
-              this, _$identity);
+  @pragma('vm:prefer-inline')
+  _$$_FrontmatterParseExceptionCopyWith<_$_FrontmatterParseException>
+      get copyWith => __$$_FrontmatterParseExceptionCopyWithImpl<
+          _$_FrontmatterParseException>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -192,8 +175,8 @@ class _$_FrontmatterParseException extends _FrontmatterParseException {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>(
-    TResult Function(String message)? $default, {
-    TResult Function(String message)? delimiter,
+    TResult? Function(String message)? $default, {
+    TResult? Function(String message)? delimiter,
   }) {
     return $default?.call(message);
   }
@@ -224,8 +207,8 @@ class _$_FrontmatterParseException extends _FrontmatterParseException {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>(
-    TResult Function(_FrontmatterParseException value)? $default, {
-    TResult Function(FrontmatterParseExceptionDelimiter value)? delimiter,
+    TResult? Function(_FrontmatterParseException value)? $default, {
+    TResult? Function(FrontmatterParseExceptionDelimiter value)? delimiter,
   }) {
     return $default?.call(this);
   }
@@ -245,7 +228,7 @@ class _$_FrontmatterParseException extends _FrontmatterParseException {
 }
 
 abstract class _FrontmatterParseException extends FrontmatterParseException {
-  const factory _FrontmatterParseException(String message) =
+  const factory _FrontmatterParseException(final String message) =
       _$_FrontmatterParseException;
   const _FrontmatterParseException._() : super._();
 
@@ -253,40 +236,39 @@ abstract class _FrontmatterParseException extends FrontmatterParseException {
   String get message;
   @override
   @JsonKey(ignore: true)
-  _$FrontmatterParseExceptionCopyWith<_FrontmatterParseException>
+  _$$_FrontmatterParseExceptionCopyWith<_$_FrontmatterParseException>
       get copyWith => throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $FrontmatterParseExceptionDelimiterCopyWith<$Res>
+abstract class _$$FrontmatterParseExceptionDelimiterCopyWith<$Res>
     implements $FrontmatterParseExceptionCopyWith<$Res> {
-  factory $FrontmatterParseExceptionDelimiterCopyWith(
-          FrontmatterParseExceptionDelimiter value,
-          $Res Function(FrontmatterParseExceptionDelimiter) then) =
-      _$FrontmatterParseExceptionDelimiterCopyWithImpl<$Res>;
+  factory _$$FrontmatterParseExceptionDelimiterCopyWith(
+          _$FrontmatterParseExceptionDelimiter value,
+          $Res Function(_$FrontmatterParseExceptionDelimiter) then) =
+      __$$FrontmatterParseExceptionDelimiterCopyWithImpl<$Res>;
   @override
+  @useResult
   $Res call({String message});
 }
 
 /// @nodoc
-class _$FrontmatterParseExceptionDelimiterCopyWithImpl<$Res>
-    extends _$FrontmatterParseExceptionCopyWithImpl<$Res>
-    implements $FrontmatterParseExceptionDelimiterCopyWith<$Res> {
-  _$FrontmatterParseExceptionDelimiterCopyWithImpl(
-      FrontmatterParseExceptionDelimiter _value,
-      $Res Function(FrontmatterParseExceptionDelimiter) _then)
-      : super(_value, (v) => _then(v as FrontmatterParseExceptionDelimiter));
+class __$$FrontmatterParseExceptionDelimiterCopyWithImpl<$Res>
+    extends _$FrontmatterParseExceptionCopyWithImpl<$Res,
+        _$FrontmatterParseExceptionDelimiter>
+    implements _$$FrontmatterParseExceptionDelimiterCopyWith<$Res> {
+  __$$FrontmatterParseExceptionDelimiterCopyWithImpl(
+      _$FrontmatterParseExceptionDelimiter _value,
+      $Res Function(_$FrontmatterParseExceptionDelimiter) _then)
+      : super(_value, _then);
 
-  @override
-  FrontmatterParseExceptionDelimiter get _value =>
-      super._value as FrontmatterParseExceptionDelimiter;
-
+  @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? message = freezed,
+    Object? message = null,
   }) {
-    return _then(FrontmatterParseExceptionDelimiter(
-      message == freezed
+    return _then(_$FrontmatterParseExceptionDelimiter(
+      null == message
           ? _value.message
           : message // ignore: cast_nullable_to_non_nullable
               as String,
@@ -302,8 +284,8 @@ class _$FrontmatterParseExceptionDelimiter
       [this.message = 'Frontmatter document must start with your delimiter.'])
       : super._();
 
-  @JsonKey(defaultValue: 'Frontmatter document must start with your delimiter.')
   @override
+  @JsonKey()
   final String message;
 
   @override
@@ -315,7 +297,7 @@ class _$FrontmatterParseExceptionDelimiter
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is FrontmatterParseExceptionDelimiter &&
+            other is _$FrontmatterParseExceptionDelimiter &&
             (identical(other.message, message) || other.message == message));
   }
 
@@ -324,10 +306,11 @@ class _$FrontmatterParseExceptionDelimiter
 
   @JsonKey(ignore: true)
   @override
-  $FrontmatterParseExceptionDelimiterCopyWith<
-          FrontmatterParseExceptionDelimiter>
-      get copyWith => _$FrontmatterParseExceptionDelimiterCopyWithImpl<
-          FrontmatterParseExceptionDelimiter>(this, _$identity);
+  @pragma('vm:prefer-inline')
+  _$$FrontmatterParseExceptionDelimiterCopyWith<
+          _$FrontmatterParseExceptionDelimiter>
+      get copyWith => __$$FrontmatterParseExceptionDelimiterCopyWithImpl<
+          _$FrontmatterParseExceptionDelimiter>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -341,8 +324,8 @@ class _$FrontmatterParseExceptionDelimiter
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>(
-    TResult Function(String message)? $default, {
-    TResult Function(String message)? delimiter,
+    TResult? Function(String message)? $default, {
+    TResult? Function(String message)? delimiter,
   }) {
     return delimiter?.call(message);
   }
@@ -373,8 +356,8 @@ class _$FrontmatterParseExceptionDelimiter
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>(
-    TResult Function(_FrontmatterParseException value)? $default, {
-    TResult Function(FrontmatterParseExceptionDelimiter value)? delimiter,
+    TResult? Function(_FrontmatterParseException value)? $default, {
+    TResult? Function(FrontmatterParseExceptionDelimiter value)? delimiter,
   }) {
     return delimiter?.call(this);
   }
@@ -395,7 +378,7 @@ class _$FrontmatterParseExceptionDelimiter
 
 abstract class FrontmatterParseExceptionDelimiter
     extends FrontmatterParseException {
-  const factory FrontmatterParseExceptionDelimiter([String message]) =
+  const factory FrontmatterParseExceptionDelimiter([final String message]) =
       _$FrontmatterParseExceptionDelimiter;
   const FrontmatterParseExceptionDelimiter._() : super._();
 
@@ -403,7 +386,7 @@ abstract class FrontmatterParseExceptionDelimiter
   String get message;
   @override
   @JsonKey(ignore: true)
-  $FrontmatterParseExceptionDelimiterCopyWith<
-          FrontmatterParseExceptionDelimiter>
+  _$$FrontmatterParseExceptionDelimiterCopyWith<
+          _$FrontmatterParseExceptionDelimiter>
       get copyWith => throw _privateConstructorUsedError;
 }

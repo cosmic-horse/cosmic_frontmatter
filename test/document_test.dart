@@ -1,4 +1,4 @@
-import 'package:cosmic_frontmatter/src/functions/parseFrontmatter.dart';
+import 'package:cosmic_frontmatter/src/functions/parse_frontmatter.dart';
 import 'package:cosmic_frontmatter/src/model/document.dart';
 import 'package:cosmic_frontmatter/src/model/mock_frontmatter.dart';
 import 'package:flutter_test/flutter_test.dart';

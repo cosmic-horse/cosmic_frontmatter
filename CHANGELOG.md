@@ -1,3 +1,7 @@
+## 1.0.3
+
+Updated package versions.
+
 ## 1.0.2
 
 * Added some minor documentation changes.
