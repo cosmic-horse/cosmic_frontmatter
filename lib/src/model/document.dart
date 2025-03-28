@@ -1,11 +1,3 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
-
-part 'document.g.dart';
-
-@JsonSerializable(
-  genericArgumentFactories: true,
-)
-
 /// Representation of a Markdown document with frontmatter.
 class Document<T> {
   final T frontmatter;
@@ -16,10 +8,19 @@ class Document<T> {
   factory Document.fromJson(
     Map<String, dynamic> json,
     T Function(Object? json) fromJsonT,
-  ) =>
-      _$DocumentFromJson(json, fromJsonT);
+  ) {
+    return Document(
+      frontmatter: fromJsonT(json['frontmatter']),
+      body: json['body'] as String,
+    );
+  }
 
-  Map<String, dynamic> toJson(Object Function(T value) toJsonT) => _$DocumentToJson(this, toJsonT);
+  Map<String, dynamic> toJson(Object Function(T value) toJsonT) {
+    return {
+      'frontmatter': toJsonT(frontmatter),
+      'body': body,
+    };
+  }
 
   @override
   int get hashCode => Object.hash(
